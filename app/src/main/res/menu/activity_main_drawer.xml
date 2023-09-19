@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="Inicio" />
+
+        <item
+            android:id="@+id/nav_ponteAPrueba"
+            android:icon="@drawable/ic_idea"
+            android:title="Ponte a Prueba" />
+
+        <item
+            android:id="@+id/nav_juegos"
+            android:icon="@drawable/ic_mando__1_"
+            android:title="Juegos" />
+
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Descargar Recursos" />
+
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/info"
+            android:title="Acerca de" />
+
+    </group>
+</menu>
